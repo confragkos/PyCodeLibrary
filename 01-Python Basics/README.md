@@ -92,9 +92,29 @@ print('First Object: {a}, Second Object: {b}, Third Object: {c}'.format(a=1,b='T
 ```
 
 ## Formatted String Literals (f-strings)
-
+```python
 name = 'Fred'
 
 print(f"He said his name is {name}.") # He said his name is Fred.
 
 print(f"He said his name is {name!r}") # print(f"He said his name is {name!r}")
+```
+
+
+# Lists
+```python
+# Grab element at index 0
+my_list[0]
+
+# Grab index 1 and everything past it
+my_list[1:]
+
+# We can also use + to concatenate lists, just like we did for strings.
+
+my_list + ['new item']  # This doesn't actually change the original list!
+
+# You would have to reassign the list to make the change permanent.
+
+# Reassign
+my_list = my_list + ['add new item permanently']
+```
