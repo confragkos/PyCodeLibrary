@@ -10,7 +10,7 @@ if person == 'Sammy':
 elif person =='George':
     print('Welcome George!')
 else:
-    print("Welcome, what's your name?")
+    pass
 ```
 
 ## for Loops
