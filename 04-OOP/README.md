@@ -41,3 +41,17 @@ is called automatically right after the object has been created:
 Each attribute in a class definition begins with a reference to the instance object. It is by convention named self. The breed is the argument. The value is passed during the class instantiation.
 
      self.breed = breed
+
+In Python there are also *class object attributes*. These Class Object Attributes are the same for any instance of the class. For example, we could create the attribute *species* for the Dog class. Dogs, regardless of their breed, name, or other attributes, will always be mammals. We apply this logic in the following manner:
+
+```python
+class Dog:
+    
+    # Class Object Attribute
+    species = 'mammal'
+    
+    def __init__(self,breed,name):
+        self.breed = breed
+        self.name = name
+```
+     
