@@ -2,6 +2,7 @@
 
 Python uses *dynamic typing*, meaning you can reassign variables to different data types. This makes Python very flexible in assigning data types; it differs from other languages that are *statically typed*.
 
+```python 
 my_dogs = 2
 print(my_dogs)
 
@@ -13,7 +14,7 @@ print(my_dogs)
 
 my_dogs = ['Rex', 'Aris']
 print(my_dogs)
-
+```
 
 
 #### Cons of Dynamic Typing
