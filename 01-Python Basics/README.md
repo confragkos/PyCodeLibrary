@@ -82,3 +82,19 @@ s.split('W')
 
 'Insert another string with curly brackets: {}'.format('The inserted string')
 ```
+
+# String Formatting
+
+#### Inserted objects can be assigned keywords:
+```python
+print('First Object: {a}, Second Object: {b}, Third Object: {c}'.format(a=1,b='Two',c=12.3))
+#print('First Object: {a}, Second Object: {b}, Third Object: {c}'.format(a=1,b='Two',c=12.3))
+```
+
+## Formatted String Literals (f-strings)
+
+name = 'Fred'
+
+print(f"He said his name is {name}.") # He said his name is Fred.
+
+print(f"He said his name is {name!r}") # print(f"He said his name is {name!r}")
