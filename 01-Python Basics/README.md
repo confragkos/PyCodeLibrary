@@ -4,16 +4,10 @@ Python uses *dynamic typing*, meaning you can reassign variables to different da
 
 ```python 
 my_dogs = 2
-print(my_dogs)
+print(my_dogs) # 2
 
 my_dogs = ['Rex', 'Aris']
-print(my_dogs)
-
-my_dogs = 2
-print(my_dogs)
-
-my_dogs = ['Rex', 'Aris']
-print(my_dogs)
+print(my_dogs) # 'Rex', 'Aris'
 ```
 
 
